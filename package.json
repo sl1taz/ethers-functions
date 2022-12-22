@@ -1,0 +1,27 @@
+{
+  "name": "ethers-functions",
+  "version": "1.0.0",
+  "description": "This is a safe web3 functions, to help with develop applications quickly.",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "sl1taz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sl1taz/ethers-functions/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sl1taz/ethers-functions.git"
+  },
+  "dependencies": {
+    "ethers": "^5.5.1",
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  }
+  
+}
