@@ -11,10 +11,14 @@ export default async function maindb(req, res) {
     // const response = await clients[clientID];
     let resp = [];
     const response = await clients[clientID]['cdb'][clientCON];
-
+    const limit = [0, 1, 2, 3, 4];
     const r = await response.filter(d => {
         return d.appName === clientFilter || ''
+    });
+    const rr = limit.map((l) => {
+        console.log(response[l])
+        return response[l]
     })
-    res.send(response)
+    res.send(rr)
 
 }
